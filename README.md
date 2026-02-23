@@ -66,32 +66,6 @@ Use the following credentials to log in:
 
 ------------------------------------------------------------------------
 
-## ⚙️ Installation & Setup
-
-1.  Clone the repository:
-
-```
-    git clone <your-repo-link>
-
-```
-
-2.  Navigate to project folder:
-
-```
-    cd student-management-portal
-
-3.  Install dependencies:
-
-```
-    npm install
-
-4.  Run the project:
-
-```
-    npm run dev
-
-------------------------------------------------------------------------
-
 ## 👩‍💻 Developed By
 
 **Devanshi Parekh**
