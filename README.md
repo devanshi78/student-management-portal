@@ -73,6 +73,8 @@ Use the following credentials to log in:
 ```
     git clone <your-repo-link>
 
+```
+
 2.  Navigate to project folder:
 
 ```
