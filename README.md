@@ -70,29 +70,21 @@ Use the following credentials to log in:
 
 1.  Clone the repository:
 
-```{=html}
-<!-- -->
 ```
     git clone <your-repo-link>
 
 2.  Navigate to project folder:
 
-```{=html}
-<!-- -->
 ```
     cd student-management-portal
 
 3.  Install dependencies:
 
-```{=html}
-<!-- -->
 ```
     npm install
 
 4.  Run the project:
 
-```{=html}
-<!-- -->
 ```
     npm run dev
 
