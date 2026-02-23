@@ -8,23 +8,39 @@ const Home = () => {
 
   useEffect(() => {
 
-    const students = JSON.parse(localStorage.getItem("Student")) || []
-    const attendance = JSON.parse(localStorage.getItem("Attendance")) || []
+    const students = JSON.parse(localStorage.getItem("Student")) || [];
+    const attendance = JSON.parse(localStorage.getItem("Attendance")) || [];
 
-    setTotalStudents(students.length)
+    // Total Students
+    setTotalStudents(students.length);
 
-    if (attendance.length > 0) {
-      const latestAttendance = attendance[attendance.length - 1]
-      const records = latestAttendance.records
-
-      let present = 0
-      let absent = 0
-
-      setPresentCount(present)
-      setAbsentCount(absent)
+    // If no attendance yet
+    if (attendance.length === 0) {
+      setPresentCount(0);
+      setAbsentCount(0);
+      return;
     }
 
-  }, [])
+    // Get latest attendance
+    const latestAttendance = attendance[attendance.length - 1];
+    const records = latestAttendance.records;
+
+    let present = 0;
+    let absent = 0;
+
+    // Simple counting logic
+    for (let id in records) {
+      if (records[id] === "Present") {
+        present++;
+      } else if (records[id] === "Absent") {
+        absent++;
+      }
+    }
+
+    setPresentCount(present);
+    setAbsentCount(absent);
+
+  }, []);
 
   return (
     <>

@@ -1,16 +1,103 @@
-# React + Vite
+# 🎓 Student Management Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Student Management System** built using **React JS** and
+**Vite**. This project allows you to manage students, mark attendance,
+and view attendance records.
 
-Currently, two official plugins are available:
+------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **Vercel Link:**\
+https://student-management-portal-gamma-snowy.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+------------------------------------------------------------------------
 
-## Expanding the ESLint configuration
+## 🔐 Login Credentials
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Use the following credentials to log in:
+
+-   **Username:** `admin@gmail.com`
+-   **Password:** `1234`
+
+------------------------------------------------------------------------
+
+## 📌 Features
+
+-   🔑 Login Authentication
+-   ➕ Add Students
+-   📋 View Student List
+-   📆 Mark Attendance
+-   📊 View Attendance Records
+-   💾 Data stored in LocalStorage
+
+------------------------------------------------------------------------
+
+## 🛠️ Tech Stack
+
+-   React JS
+-   Vite
+-   JavaScript (ES6)
+-   HTML5
+-   CSS3
+-   Bootstrap
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+    STUDENT-MANAGEMENT-PORTAL
+    │── public
+    │── src
+    │   ├── components
+    │   │   ├── Header.jsx
+    │   │   └── Aside.jsx
+    │   ├── pages
+    │   │   ├── Home.jsx
+    │   │   ├── Login.jsx
+    │   │   ├── AddStudent.jsx
+    │   │   ├── StudentList.jsx
+    │   │   ├── Attendance.jsx
+    │   │   └── ViewAttendance.jsx
+    │   ├── App.jsx
+    │   └── main.jsx
+    │
+    └── vite.config.js
+
+------------------------------------------------------------------------
+
+## ⚙️ Installation & Setup
+
+1.  Clone the repository:
+
+```{=html}
+<!-- -->
+```
+    git clone <your-repo-link>
+
+2.  Navigate to project folder:
+
+```{=html}
+<!-- -->
+```
+    cd student-management-portal
+
+3.  Install dependencies:
+
+```{=html}
+<!-- -->
+```
+    npm install
+
+4.  Run the project:
+
+```{=html}
+<!-- -->
+```
+    npm run dev
+
+------------------------------------------------------------------------
+
+## 👩‍💻 Developed By
+
+**Devanshi Parekh**
